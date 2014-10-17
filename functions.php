@@ -206,37 +206,58 @@ if (is_object($gv)) :
 function gvsummit2015_css_variants() {
 
 		gv_add_css_variant(array(
-		'label' => 'gv_main_turquoise',
+		'label' => 'header_more_blue',
 		'css' => "
-#MEDIUM-BLUE-GRADIENT,
+
+#BLUE-BACKGROUND,
 .header-container,
 .header-nav-bar-container,
-.medium-blue-gradient {
+.medium-green-gradient {
 /*http://css-tricks.com/examples/CSS3Gradient/*/
-	background-color: #03C2CB;
+	background-color: #27A6EC;
+background-color: #00C0DE
+;}
+#BLUE-HIGHLIGHT-BORDER,
+.menu li,
+.header-menu-container input,
+.blue-hightlight-border {
+	/* Lightest shade of green from medium-green-gradient*/
+	border-color: #00A8C1;
 }
-#TEXT-SHADOW-MEDIUM-BLUE-BACKGROUND,
+#TEXT-SHADOW-BLUE,
 .header-mission-statement,
 .header-mission-statement a,
 .header-container,
 .header-nav-bar-container,
 .header-nav-bar-container a,
-.text-shadow-medium-blue {
+.text-shadow-blue {
 	/*color: #fff;*/
-	text-shadow: 1px 1px 2px #00A0A7;
+	text-shadow: 1px 1px 2px #00A8C1;
 	}
-#MEDIUM-BLUE-HIGHLIGHT-BORDER,
-.header-menu li,
-.header-menu-container input,
-.medium-blue-hightlight-border {
-	/* Lightest shade of green from medium-green-gradient*/
-	border-color: #00A0A7;
+
+#MEDIUM-BLUE-TEXT,
+.header-container .toggle-menu-content a,
+.header-container .menu-opened .menu-toggle,
+.medium-rv-blue-text {
+	color: #2F93E8;
+}
+#NO-TEXT-SHADOW,
+.header-container .menu-opened .toggle-menu-heading,
+.header-container .toggle-menu-content,
+.header-container .active-item a,
+.no-text-shadow {
+	text-shadow: none;
+}	
+#LINK-BOLDNESS-MEDIUM-BLUE-BACKGROUND, 
+.header-mission-statement a,
+.link-boldness-medium-blue-background {
+	font-weight: bold;
 }
 .header-container .site-search input[type='submit'] {
-	background-color: #00A0A7;
+	background-color: #00A8C1;
 }
 .header-container .site-search input {
-	outline: 1px solid #00A0A7;
+	outline: 1px solid #00A8C1;
 }
 		",
 	));
