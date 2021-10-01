@@ -6,12 +6,6 @@
  * This code will run before the functions.php in that theme.
  */
 
-/**
- * GRAVITY FORMS: Enable gform_confirmation_anchor so that form submissions scroll the page to the top of the form.
- */
-add_filter("gform_confirmation_anchor", create_function("","return true;"));
-
-
 if (is_object($gv)) :
 
 	/**
