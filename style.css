@@ -10,33 +10,20 @@ Template: gv-theme
 */
 
 #WHITE-TEXT,
-.header-container a,
-.header-mission-statement,
-.header-tools .menu-toggle,
+.a11y-dialog-open,
+.header-nav-bar-container .header-nav-bar a,
+.header-nav-bar-container .header-nav-bar a:active,
+.header-nav-bar-container .header-nav-bar a:hover,
+.text-site-title,
 .white-text {
-	color: #fff; 
+	color: #fff;
 }
 
-#LIGHT-RED-TEXT,
-.error,
-.edit a:hover,
-#comments .edit a:hover,
-#cancel-comment-reply-link:hover,
-.warning a:hover {
-	color: #d90202;
-	}
 #MEDIUM-BLUE-TEXT,
 .header-container .toggle-menu-content a,
 .header-container .menu-opened .menu-toggle,
 .medium-rv-blue-text {
 	color: #2F93E8;
-}
-#NO-TEXT-SHADOW,
-.header-container .menu-opened .toggle-menu-heading,
-.header-container .toggle-menu-content,
-.header-container .active-item a,
-.no-text-shadow {
-	text-shadow: none;
 }	
 #MEDIUM-ROBINSEGG-BACKGROUND,
 .header-container,
@@ -44,19 +31,8 @@ Template: gv-theme
 .medium-robinsegg-background {
 	background-color: #03C2CB; /*NEW Dodger Blue*/
 }
-#DARKER-robinsegg-BACKGROUND,
-.header-container .site-search input[type='submit'],
-.darker-robinsegg-background {
-	background-color: #00A0A7; /*Dodger blue highlight*/
-}
-#DARKER-robinsegg-OUTLINE,
-.header-container .site-search input,
-.darker-robinsegg-outline {
-	outline: 1px solid #00A0A7;
-}
+
 #TEXT-SHADOW-robinsegg-BACKGROUND,
-.header-mission-statement,
-.header-mission-statement a,
 .header-container,
 .header-nav-bar-container,
 .header-nav-bar-container a,
@@ -65,16 +41,9 @@ Template: gv-theme
 	text-shadow: 1px 1px 2px #00A9B1; /*NEW Dodger Blue Highlight*/
 	}
 #robinsegg-HIGHLIGHT-BORDER,
-.header-menu li,
-.header-menu-container input,
-.header-tools .menu-toggle,
+.header-nav-bar li,
 .robinsegg-hightlight-border {
 	border-color: #00A9B1;
-}
-#LINK-BOLDNESS-robinsegg-BACKGROUND, 
-.header-mission-statement a,
-.link-boldness-medium-blue-background {
-	font-weight: bold;
 }
 
 #header {
@@ -91,10 +60,6 @@ Template: gv-theme
 	margin-top: 0;
 	margin-bottom: 0;
 	}
-
-.title-menu-container {
-margin-bottom: 0;
-}
 
 .header-content {
 margin-bottom: .375rem;
@@ -140,8 +105,5 @@ only screen and (max-width: 500px) {
 	.site-title {
 		width: 200px;
 		max-width: 200px;
-	}
-	.header-tools .site-menu > .site-subscribe-icons {
-		display: none;
 	}
 }
