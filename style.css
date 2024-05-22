@@ -24,21 +24,31 @@ Template: gv-theme
 .header-container .menu-opened .menu-toggle,
 .medium-rv-blue-text {
 	color: #2F93E8;
-}	
+}
+
 #MEDIUM-ROBINSEGG-BACKGROUND,
 .header-container,
 .header-nav-bar-container,
 .medium-robinsegg-background {
-	background-color: #03C2CB; /*NEW Dodger Blue*/
+	background-color: #03C2CB;
+	/*NEW Dodger Blue*/
 }
 
 #TEXT-SHADOW-robinsegg-BACKGROUND,
 .header-nav-bar-container,
 .header-nav-bar-container a,
-.text-shadow-robinsegg-background{
+.text-shadow-robinsegg-background {
 	/*color: #fff;*/
-	text-shadow: 1px 1px 2px #00A9B1; /*NEW Dodger Blue Highlight*/
-	}
+	text-shadow: 1px 1px 2px #00A9B1;
+	/*NEW Dodger Blue Highlight*/
+}
+
+#NO-TEXT-SHADOW,
+.header-nav-bar-container .current-menu-item a,
+.no-text-shadow {
+	text-shadow: none;
+}
+
 #robinsegg-HIGHLIGHT-BORDER,
 .header-nav-bar li,
 .robinsegg-hightlight-border {
@@ -53,54 +63,61 @@ Template: gv-theme
 	width: 500px;
 	max-width: 500px;
 	padding: 0;
-	position: relative !important; /*for site-title-img abs pos*/
+	position: relative !important;
+	/*for site-title-img abs pos*/
 	margin-bottom: 1px;
 
 	margin-top: 0;
 	margin-bottom: 0;
-	}
+}
 
 .header-content {
-margin-bottom: .375rem;
+	margin-bottom: .375rem;
 }
 
 @media
+
 /*only screen BIGGER THAN 1008px {*/
 only screen and (min-width: 1200px) {
-.site-title {
-	width: 600px;
-	max-width: 600px;
+	.site-title {
+		width: 600px;
+		max-width: 600px;
 	}
 }
+
 @media
+
 /*only screen and (max-width: 960px) {*/
 only screen and (max-width: 1200px) {
-	
+
 	.header-nav-bar {
 		font-size: 16px;
 	}
 }
+
 @media
+
 /*only screen and (max-width: 960px) {*/
 only screen and (max-width: 1008px) {
 	.site-title {
 		width: 375px;
 		max-width: 375px;
 	}
+
 	.header-nav-bar {
 		font-size: 14px;
 	}
 }
+
 /*Anything smaller than 720px*/
-@media
-only screen and (max-width: 720px) {	
+@media only screen and (max-width: 720px) {
 	.site-title {
 		width: 275px;
 		max-width: 275px;
 	}
 }
-@media
-only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 500px) {
 	.site-title {
 		width: 200px;
 		max-width: 200px;
