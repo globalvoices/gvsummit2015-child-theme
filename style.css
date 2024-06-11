@@ -10,7 +10,7 @@ Template: gv-theme
 */
 
 #WHITE-TEXT,
-.a11y-dialog-open,
+.header-container .a11y-dialog-open,
 .header-nav-bar-container .header-nav-bar a,
 .header-nav-bar-container .header-nav-bar a:active,
 .header-nav-bar-container .header-nav-bar a:hover,
@@ -20,8 +20,6 @@ Template: gv-theme
 }
 
 #MEDIUM-BLUE-TEXT,
-.header-container .toggle-menu-content a,
-.header-container .menu-opened .menu-toggle,
 .medium-rv-blue-text {
 	color: #2F93E8;
 }
@@ -38,7 +36,6 @@ Template: gv-theme
 .header-nav-bar-container,
 .header-nav-bar-container a,
 .text-shadow-robinsegg-background {
-	/*color: #fff;*/
 	text-shadow: 1px 1px 2px #00A9B1;
 	/*NEW Dodger Blue Highlight*/
 }
